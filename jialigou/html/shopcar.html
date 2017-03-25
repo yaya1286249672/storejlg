@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>购物车</title>
+    <link rel = "stylesheet" type = "text/css" href = "../css/style2.css">
+    <link rel = "stylesheet" type = "text/css" href = "../css/shopstyle.css">
+    <script src = "../js/lib/jquery-1.12.4.js"></script>
+    <script src = "../js/app/index.js"></script>
+    <script src = "../js/app/cookie.js"></script>
+    <script src = "../js/app/xiangqing.js"></script>
+    <script src = "../js/app/shopcar.js"></script>
+
+</head>
+<body>
+<div class="topwrap topwrap1">
+    <div class="topcen topcen1">
+        <div class="top-di">
+            <p class="top-tel">电话热线 <span>400-630-0077</span>
+            <p class="re-log"><a href="login.html">[登录]</a><a href="register.html">[免费注册]</a></p>
+            <ul class="smnav">
+                <li><a href="#">我的嘉</a></li>
+                <li><a href="#">我的订单</a></li>
+                <li><a href="#">客服服务</a></li>
+                <li><a href="#">电视会员激活</a></li>
+                <li><a href="#">我的嘉丽购</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+<div class="goucen">
+    <div class="gou-top">
+        <h1><img src="../images/ladygood.png" alt=""><span>|</span><span>购物车</span></h1>
+        <ul class = "car-process">
+            <li>我的购物车</li>
+            <li>提交订单</li>
+            <li>等待付款</li>
+            <li>支付成功</li>
+        </ul>
+    </div>
+</div>
+<div class="car-main">
+    <h3 class = "car-title"><span>全部商品</span><a href="index.html">返回首页</a></h3>
+    <table border = "1" class = "carlist" >
+        <tr>
+            <th><a href="#">全选</a></th>
+            <th>商品名</th>
+            <th>单价（元）</th>
+            <th>数量</th>
+            <th>嘉丽价</th>
+            <th>操作</th>
+        </tr>
+
+    </table>
+</div>
+<div class = "indexfooter"></div>
+<script>
+    $(".indexfooter").load("footer.html");
+</script>
+</body>
+</html>

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel = "stylesheet" type = "text/css" href = "../css/style1.css">
+    <script src = "../js/lib/jquery-1.12.4.js"></script>
+    <script src = "../js/lib/jquery_validate/jquery.validate.js"></script>
+    <script src = "../js/app/register-login.js"></script>
+</head>
+<body>
+<div class="headerwrap">
+    <div class="header">
+        <div class="headercen">
+            <h1><img src="../images/ladygood.png" alt=""></h1>
+            <p>&nbsp;|&nbsp;&nbsp;欢迎注册<span>已有账号<a href = "login.html">直接登录</a></span></p>
+        </div>
+    </div>
+</div>
+<!--登录框-->
+<div class="kuang-wrap">
+    <div class="reg-main">
+        <form action="" id = "register-form" >
+            <ul class="reglist">
+                <li>
+                    <label for="uname">*用户名</label>
+                    <input type="text" name="r_username" id="uname" placeholder="输入手机号">
+                </li>
+                <li>
+                    <label for="psw">*设置密码</label>
+                    <input type="password" name="r_password" id="psw" placeholder="创建密码">
+                </li>
+                <li>
+                    <label for="repsw">*确认密码</label>
+                    <input type="password" name="r_repsw" id="repsw" placeholder="确认密码">
+                </li>
+                <li>
+                    <p><input type="checkbox" name="" id="yuedu" checked><a href="#">我已阅读并同意《嘉丽购物网服务条款》</a></p>
+                    <input type = "submit" id = "btn1" value = "注册">
+                    <p class = "pyou">您还可以选择<a href = "#" class="emreg">邮箱注册</a></p>
+                </li>
+            </ul>
+        </form>
+    </div>
+</div>
+
+<div id="re-foot"></div>
+<script>
+    $(function(){
+        $("#re-foot").load("footer.html");
+    })
+</script>
+</body>
+</html>

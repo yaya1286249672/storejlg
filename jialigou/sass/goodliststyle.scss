@@ -1,0 +1,54 @@
+@charset "utf-8";
+html,body,h1,h2,h3,h4,h5,h6,div,dl,dt,dd,ul,ol,li,p,blockquote,pre,hr,figure,table,caption,th,td,form,fieldset,legend,input,button,textarea,menu{margin:0;padding:0;}
+input,button,textarea{outline: none;}
+a:hover{color:#e5007f;text-decoration:underline;}
+body{color:#444;}
+img{display:block;border:0;}
+li{list-style: none;}
+a{text-decoration: none;color:#444;}
+.xs-main{width:1193px;min-height:600px;height:auto!important;margin:0 auto;}
+.good-subnav{height:30px;background:#eee;line-height:30px;padding-left:20px;margin-top:1px;}
+.good-right{width:990px;min-height:800px;float:right;border:1px solid #eee;}
+.good-left{
+  width:190px;
+  float:left;
+  ul{
+      display:none;padding-left:20px;
+      p a{
+      font-size:12px;margin:0 3px;line-height:20px;
+    }
+  }
+}
+.gr-top{
+  width:970px;height:80px;
+  padding:5px 5px 5px 15px;
+  border-bottom:1px solid #eee;
+  p{
+    line-height:40px;font-size:12px;
+    a,span{margin-left:5px;}
+    span{background:#e21357;padding:2px;border-radius:2px;color:#fff;}
+  }
+}
+.method-pai{
+  font-size:12px;
+  padding:0 5px 0 15px;
+  border-bottom:1px solid #eee;
+  height:40px;line-height:40px;
+  li{float:left;margin-left:10px;}
+}
+.method-pai li:nth-child(2) a,.method-pai li:nth-child(3) a,.method-pai li:nth-child(4) a,.method-pai li:nth-child(6) a,.method-pai li:nth-child(7) a{padding:5px;background:#eee;}
+.method-pai li:nth-child(4) a{margin-right:460px;}
+.gd-container{width:990px;height:auto;overflow:hidden;}
+.good-piclist{padding-top:10px;}
+.good-piclist li{width:228px;height:315px;border:1px solid #eee;float:left;margin:0 0 5px 14px;}
+.good-piclist img{width:218px;height:218px;padding:5px;transition: 2s;}
+.good-piclist img:hover{transform: scale(1.1,1.1);}
+.good-piclist p{line-height:24px;padding-left:5px;font-size:12px;}
+.pintroduce{font-size:12px;dispay:block;padding-left:5px;}
+.pxinxi strong{float:left;font-size:16px;color:#e91456}
+.pxinxi span{float:right;margin-right:50px;}
+.goubtn{width:100px;height:30px;border:0;border:1px solid #ccc;margin-right:10px;}
+.shoubtn{width:50px;height:30px;border:0;border:1px solid #ccc;}
+.eatfy{width:300px;height:30px;margin:30px auto;font-size:12px;}
+.eatfy li{float:left;}
+.eatfy a{padding:0 5px;}
